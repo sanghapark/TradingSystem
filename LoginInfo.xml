@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Brokers>
+  
+  <ETrade name="E*Trade">
+    <LoginTime checker="true">
+      <!-- checker: 5초 마다 서버 연결 상태 확인 및 비연결시 서버 연결 및 로그인 그리고 데이터 피딩 다시 요청-->
+      <TimeStart>08:50:00</TimeStart>
+      <TimeEnd>15:30:00</TimeEnd>
+    </LoginTime>
+    <LoginInfo auto="0">
+      <UserInfo>
+        <ID>plastic</ID>
+        <Password>park9065</Password>
+        <AuthorizingPassword>parkxhv6vp+s</AuthorizingPassword>
+        <AuthorizingPasswordErrorMsg>0</AuthorizingPasswordErrorMsg>  <!-- 0:FALSE or 1:TRUE -->
+      </UserInfo>
+      <ServerInfo>
+        <ServerType>1</ServerType>  <!-- 1:Real or 0:Simulation-->
+        <ServerName>HTS</ServerName>
+        <ServerAddress>hts.etrade.co.kr</ServerAddress>
+        <ServerPort>20001</ServerPort>
+        <MaxTransferSize>-1</MaxTransferSize>
+        <ConnectingTime>-1</ConnectingTime>
+      </ServerInfo>
+    </LoginInfo>
+  </ETrade>
+  
+  <Woori name="Woori">
+    <LoginTime checker="true">
+      <!-- checker: 5초 마다 서버 연결 상태 확인 및 비연결시 서버 연결 및 로그인 그리고 데이터 피딩 다시 요청-->
+      <StartTime>08:50:00</StartTime>
+      <EndTime>15:30:00</EndTime>
+    </LoginTime>
+    <LoginInfo auto="0">
+      <UserInfo>
+        <ID></ID>
+        <Password></Password>
+        <AuthorizingPassword></AuthorizingPassword>
+        <AuthorizingPasswordErrorMsg></AuthorizingPasswordErrorMsg>
+      </UserInfo>
+      <ServerInfo>
+        <ServerType></ServerType><!-- 1:Real or 0:Simulation-->
+        <ServerName></ServerName>
+        <ServerAddress></ServerAddress>
+        <ServerPort></ServerPort>
+        <MaxTransferSize></MaxTransferSize>
+        <ConnectingTime></ConnectingTime>
+      </ServerInfo>
+    </LoginInfo>
+  </Woori>
+  
+</Brokers>
+

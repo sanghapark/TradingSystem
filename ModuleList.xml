@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModuleList>
+  
+  <LoginManager name="Login Manager" count="2">
+    <LoginInfo1 name="E*Trade">E*Trade</LoginInfo1>
+    <LoginInfo2 name="Woori">Woori</LoginInfo2>
+  </LoginManager>
+  
+  <DataFeeder name="Data Feeding" count="2">
+    <Broker1 name="E*Trade">E*Trade</Broker1>
+    <Broker2 name="Woori">Woori</Broker2>
+  </DataFeeder>
+  
+  <Instrument name="Instruments" count="5">
+    <InstrumentType1 name="Stock" count="2">
+      <InstrumentGroup1>KOSPI</InstrumentGroup1>
+      <InstrumentGroup2>KOSDAQ</InstrumentGroup2>
+    </InstrumentType1>
+    
+    <InstrumentType2 name="Futures" count="1">
+      <InstrumentGroup1>KOSPI</InstrumentGroup1>
+    </InstrumentType2>
+    
+    <InstrumentType3 name="Option" count="1">
+      <InstrumentGroup1>KOSPI</InstrumentGroup1>
+    </InstrumentType3>
+    
+    <InstrumentType4 name="ETF" count="1">
+      <InstrumentGroup1>KODEX</InstrumentGroup1>
+    </InstrumentType4>
+    
+    <InstrumentType5 name="ELW" count="0">      
+    </InstrumentType5>
+  </Instrument>
+  
+  <DataManufacturer name="Data Manufacturer"></DataManufacturer>
+  
+  <Strategy name="Strategy"></Strategy>
+  
+  <Trader name="Trader"></Trader>
+  
+  <PerformanceReport name="Performance Report"></PerformanceReport>
+
+</ModuleList>

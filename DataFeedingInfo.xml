@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!-- 0:FALSE or 1:TRUE -->
+
+<DataFeedingInfo>
+
+  <DataFeedingItemList>
+    <!-- Stock -->
+    <Item  id="1"  broker="E*Trade" type="Stock"   name="Samsung Electronics" code="005930" trType="Contract"       trCode="S3_" auto="false"></Item>
+    <Item  id="2"  broker="E*Trade" type="Stock"   name="Samsung Electronics" code="005930" trType="LimitOrderBook" trCode="H1_" auto="false"></Item>
+
+    <!-- ETF-->
+    <Item  id="3"  broker="E*Trade" type="ETF"   name="KODEX200"           code="069500" trType="Contract"       trCode="S3_" auto="true"></Item>
+    <Item  id="4"  broker="E*Trade" type="ETF"   name="KODEX200"           code="069500" trType="LimitOrderBook" trCode="H1_" auto="true"></Item>
+    <Item  id="5"  broker="E*Trade" type="ETF"   name="KODEX200Leverage"   code="122630" trType="Contract"       trCode="S3_" auto="true"></Item>
+    <Item  id="6"  broker="E*Trade" type="ETF"   name="KODEX200Leverage"   code="122630" trType="LimitOrderBook" trCode="H1_" auto="true"></Item>
+    <Item  id="7"  broker="E*Trade" type="ETF"   name="KODEX200Inverse"    code="114800" trType="Contract"       trCode="S3_" auto="true"></Item>
+    <Item  id="8"  broker="E*Trade" type="ETF"   name="KODEX200Inverse"    code="114800" trType="LimitOrderBook" trCode="H1_" auto="true"></Item>
+
+    <!-- Futures -->
+    <Item  id="9"  broker="E*Trade" type="Futures" name="CKOSPI200Index�"    code="00000000" trType="Contract"        trCode="FC0" auto="false"></Item>
+    <Item id="10"  broker="E*Trade" type="Futures" name="CKOSPI200Index"    code="00000000" trType="LimitOrderBook"  trCode="FH0" auto="false"></Item>
+    <Item id="11"  broker="E*Trade" type="Futures" name="KOSPI200Index"  code=""         trType="Contract"        trCode="FC0" auto="true"></Item>
+    <Item id="12"  broker="E*Trade" type="Futures" name="KOSPI200Index"  code=""         trType="LimitOrderBook"  trCode="FH0" auto="true"></Item>
+  </DataFeedingItemList>
+
+  <DataBunchList>
+    <DataBunch id="1" name="KOSPI200Index" save="false">
+      <Data itemID="11"></Data>
+      <Data itemID="12"></Data>
+    </DataBunch>
+
+    <DataBunch id="2" name="KODEX200" save="true">
+      <Data itemID="3"></Data>
+      <Data itemID="4"></Data>
+      <Data itemID="5"></Data>
+      <Data itemID="6"></Data>
+      <Data itemID="7"></Data>
+      <Data itemID="8"></Data>
+      <Data itemID="11"></Data>
+      <Data itemID="12"></Data>
+    </DataBunch>
+
+  </DataBunchList>
+
+</DataFeedingInfo>

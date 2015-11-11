@@ -1,0 +1,103 @@
+﻿Build started 2014-11-25 오후 4:12:22.
+     1>Project "D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\TradingSystem\TradingSystem.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Release\TradingSystem.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\QuantLib-1.4\QuantLib-1.4\lib" /LIBPATH:C:\boost\boost_1_55_0\stage\lib lib\chartdir51.lib /DEF:"ETradeDataFeedingInfoManager.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Release\TradingSystem.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Release\TradingSystem.lib" /MACHINE:X86 /SAFESEH Release\TradingSystem.res
+         Release\Ask.obj
+         Release\AskList.obj
+         Release\BlackSholesOptionPricingModel.obj
+         Release\ChartViewer.obj
+         Release\Contract.obj
+         Release\DataBlock.obj
+         Release\DataBunchesToNotify.obj
+         Release\DataBunchGridCtrl.obj
+         Release\DataBunchItem.obj
+         Release\DataBunchItemGridCtrl.obj
+         Release\DataFeedingEditCtrl.obj
+         Release\DataFeedingGridCtrl.obj
+         Release\DataFeederList.obj
+         Release\DataFeedingInfoItemListInGrid.obj
+         Release\DataBunch.obj
+         Release\DataFeedingInfoManager.obj
+         Release\DataFeedingItemInfo.obj
+         Release\DataFeedingItemInfoList.obj
+         Release\DataBunchList.obj
+         Release\DateInfo.obj
+         Release\DlgDataFeedingInfoItemAdd.obj
+         Release\DlgETradeLoginStatus.obj
+         Release\DlgInstrumentManager.obj
+         Release\DlgLoginStatusTabBar.obj
+         Release\DlgModuleTree.obj
+         Release\DlgDataFeedingModule.obj
+         Release\DlgOptionManager.obj
+         Release\DlgOptionStrategy.obj
+         Release\DlgWooriLoginStatus.obj
+         Release\DataFeedingInfoXMLController.obj
+         Release\ETradeLoginInfo.obj
+         Release\ETradeLoginInfoManager.obj
+         Release\ETradeLoginInfoXMLController.obj
+         Release\ETradeLoginInfoXMLReader.obj
+         Release\ETradeLoginInfoXMLWriter.obj
+         Release\ETradeServerInfo.obj
+         Release\ETradeUserInfo.obj
+         Release\EuropeanOption.obj
+         Release\ExpiryCalculator.obj
+         Release\FileWriter.obj
+         Release\GridCell.obj
+         Release\GridCellBase.obj
+         Release\GridCtrl.obj
+         Release\GridDropTarget.obj
+         Release\InPlaceEdit.obj
+         Release\TitleTip.obj
+         Release\Instrument.obj
+         Release\InstrumentCodeMaker.obj
+         Release\InstrumentGridCtrl.obj
+         Release\InstrumentInfoXMLController.obj
+         Release\InstrumentList.obj
+         Release\InstrumentManager.obj
+         Release\LimitOrderBook.obj
+         Release\LoginInfoManager.obj
+         Release\LoginTime.obj
+         Release\LongPosition.obj
+         Release\MainFrm.obj
+         Release\Markup.obj
+         Release\MathCalculator.obj
+         Release\MathFormula.obj
+         Release\ModuleList.obj
+         Release\ModuleRelationView.obj
+         Release\GridCellCheck.obj
+         Release\GridCellCombo.obj
+         Release\GridCellDateTime.obj
+         Release\GridCellNumeric.obj
+         Release\GridURLCell.obj
+         Release\OptionInfo.obj
+         Release\OptionInfoList.obj
+         Release\OptionPriceBoardItem.obj
+         Release\OptionListGridCtrl.obj
+         Release\OptionManager.obj
+         Release\OptionParameter.obj
+         Release\OptionPositionGridCtrl.obj
+         Release\OptionStrategyGridCtrl.obj
+         Release\OptionStrategyList.obj
+         Release\OptionPriceBoard.obj
+         Release\OptionValue.obj
+         Release\OutputView.obj
+         Release\PositionList.obj
+         Release\Sensitivity.obj
+         Release\ShortPosition.obj
+         Release\stdafx.obj
+         Release\TradingSystem.obj
+         Release\TradingSystemDoc.obj
+         Release\TradingSystemManager.obj
+         Release\TradingSystemView.obj
+         Release\DataConverter.obj
+     1>LINK : warning C4742: 'class CTradingSystemApp theApp' has different alignment in 'D:\VS 2012 Projects\shp-system (38) �ɼ� �Ŵ��� �߰�  (�ɼ� ������, �����Ⱓ 365)\TradingSystem\DlgOptionStrategy.cpp' and 'D:\VS 2012 Projects\shp-system (38) �ɼ� �Ŵ��� �߰�  (�ɼ� ������, �����Ⱓ 365)\TradingSystem\DlgInstrumentManager.cpp': 1 and 4
+            Creating library D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Release\TradingSystem.lib and object D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Release\TradingSystem.exp
+         Generating code
+         Finished generating code
+         TradingSystem.vcxproj -> D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Release\TradingSystem.exe
+     1>Done Building Project "D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\TradingSystem\TradingSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:07.36

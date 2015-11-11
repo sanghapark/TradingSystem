@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ModuleTree count="7">
+  <Module1 name="Login Manager" count="1">
+    <Broker1 name="E*Trade"></Broker1>
+  </Module1>
+
+  <Module2 name="Raw Data-feeding Manager" count="2">
+    <Type1 name="Real-time Feeding" count="1">
+      <Source1 name="E*Trade"></Source1>
+    </Type1>
+    <Type2 name="Virtual Feeding" count="1">
+      <Source1 name="DataBase"></Source1>
+    </Type2>
+  </Module2>
+
+  <Module3 name="Instrument Manager" count="0">
+  </Module3>
+
+  <Module4 name="Data Manufacturing Manager" count="0">
+  </Module4>
+
+  <Module5 name="Strategy Manager" count="0">   
+  </Module5>
+
+  <Module6 name="Trade Manager" count="0">    
+  </Module6>
+
+  <Module7 name="Performance Report" count="0">    
+  </Module7>
+  
+</ModuleTree>

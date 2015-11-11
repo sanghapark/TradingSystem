@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ETC">
+      <UniqueIdentifier>{d4641b35-7792-4902-9878-caa50dcec70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ETC\XML">
+      <UniqueIdentifier>{64d38226-b49b-4a85-b92e-784564779be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\XML\Parser">
+      <UniqueIdentifier>{6b4b1bde-016b-4b84-8469-b2035d2e2342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29">
+      <UniqueIdentifier>{c43eaa47-885c-423a-8063-4fa10fe8079d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\00. Base">
+      <UniqueIdentifier>{fc0617b3-2e9b-43fa-8fbf-2b0f148fd901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\00. Base\Header">
+      <UniqueIdentifier>{bd614dd9-38a3-487d-b17c-e20a35ad5921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\00. Base\Source">
+      <UniqueIdentifier>{93956a43-7ed5-4da4-ac41-54c9c67a4594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\01. ModuleList Manager">
+      <UniqueIdentifier>{c75a1f2e-19eb-4d34-968f-af6cb51c51b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\01. ModuleList Manager\Header">
+      <UniqueIdentifier>{7c722993-177a-4db5-9e99-0a074e5cb4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\01. ModuleList Manager\Source">
+      <UniqueIdentifier>{2e5de1b8-b45b-4047-8fd2-670162aaa633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\02. Login Manager">
+      <UniqueIdentifier>{568c375c-2af0-43e0-b61f-2e4297e5044f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\02. Login Manager\Header">
+      <UniqueIdentifier>{3b3d92fd-ac54-4910-b297-1dd44cd7a0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\02. Login Manager\Source">
+      <UniqueIdentifier>{a5e21dd9-f142-4332-ab21-06f03dd721d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\Main View Part Dialogs">
+      <UniqueIdentifier>{3c28a0ee-c4b8-4f2d-a796-e9986e2c30d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\Main View Part Dialogs\Header">
+      <UniqueIdentifier>{4ead4b9f-515a-47ab-bef5-e0cc6593f6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\Main View Part Dialogs\Source">
+      <UniqueIdentifier>{b299bce7-bd5a-4813-aa0d-7ac7fffe1fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\ETradePacket">
+      <UniqueIdentifier>{19b92004-cd20-49c4-82dd-b6d490374773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\GridCtrl">
+      <UniqueIdentifier>{cd9670d9-db55-4ced-9472-70d5a7a6c707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29">
+      <UniqueIdentifier>{34b62a22-9658-4405-998a-37a661f10bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\01. ModuleList">
+      <UniqueIdentifier>{217d1e62-74bb-4a28-9017-adb53e3c1461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\01. ModuleList\Header">
+      <UniqueIdentifier>{f554389b-2ada-4bfd-a40a-2338de782272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\01. ModuleList\Source">
+      <UniqueIdentifier>{44881b74-e876-4cdf-bac6-13f1aa67ef7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\00. Login">
+      <UniqueIdentifier>{41b0f56b-47f9-4714-8cc2-5406efb1d59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\00. Login\ETrade">
+      <UniqueIdentifier>{cd2c29c2-5e12-4816-8402-0cf1751f9af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\00. Login\ETrade\Header">
+      <UniqueIdentifier>{0ce4812a-2300-497f-a30a-aa045955466e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\00. Login\ETrade\Source">
+      <UniqueIdentifier>{d2ec0bcb-ab57-4f4a-a132-d33aa519434b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\02. DataFeeding">
+      <UniqueIdentifier>{38c5b3d6-621e-4232-873f-2a847367d1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\02. DataFeeding\General">
+      <UniqueIdentifier>{a711dddb-652f-4a6e-93ec-ee7a18ed6503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\02. DataFeeding\General\Header">
+      <UniqueIdentifier>{ee71032e-57a7-42a6-98f7-a8ac0f1ad318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\02. DataFeeding\General\Source">
+      <UniqueIdentifier>{a97ba7fd-4138-4769-99ca-8655fc6efbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\02. DataFeeding\Header">
+      <UniqueIdentifier>{255b7711-2abe-4b80-8fc2-c8fe25928764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\02. DataFeeding\Source">
+      <UniqueIdentifier>{dd5906ae-ed44-4596-9e53-0751a2548f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\03. FileManager">
+      <UniqueIdentifier>{33610974-fc64-4a01-a94b-9e902591e5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\04. InstrumentManager">
+      <UniqueIdentifier>{6b68abfe-91d0-4ad4-81fd-0b8b566a84b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\04. InstrumentManager\Header">
+      <UniqueIdentifier>{c72aef0e-9c18-4624-9cee-3d0f06bd4b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\04. InstrumentManager\Source">
+      <UniqueIdentifier>{53183637-4e69-4563-a707-8684a39ad76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\03. Instrument Manager">
+      <UniqueIdentifier>{529210b3-1dce-4313-8bbb-81a9ceda65fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\03. Instrument Manager\Header">
+      <UniqueIdentifier>{5fd64da7-1e3c-4f65-8603-921d292cd1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\03. Instrument Manager\Source">
+      <UniqueIdentifier>{29d5a0ea-b0d8-4d70-8d42-0122ea5197fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\00. Login\General">
+      <UniqueIdentifier>{ba10313c-5b16-46bf-80bd-4154aec5cd87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\04. Option Manager">
+      <UniqueIdentifier>{1f30cb89-4436-4604-b524-e13c28f1dc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\04. Option Manager\Header">
+      <UniqueIdentifier>{e5770bdd-710f-4e12-a67c-915bf7eade02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. View %28MFC%29\04. Option Manager\Source">
+      <UniqueIdentifier>{212e399f-1ed8-4dbe-95a6-cc8c763ab899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\Chart">
+      <UniqueIdentifier>{ae1e4676-1328-442b-b57e-4a9afa0cfa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\05. OptionManager">
+      <UniqueIdentifier>{e73a3021-4b59-4a7b-88df-f533889c8503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\05. OptionManager\Header">
+      <UniqueIdentifier>{98c13685-38c5-4102-8c95-2f9fc72cb059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Model %28Native C++%29\05. OptionManager\Source">
+      <UniqueIdentifier>{be849fc3-5f1d-4570-af1b-71ca476561c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\Common">
+      <UniqueIdentifier>{48cb932b-4e81-44ed-8f7c-60a049ea39e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\Common\Template">
+      <UniqueIdentifier>{89da7c92-c4f3-48ae-a4e2-05d492422816}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TradingSystem.rc2">
+      <Filter>ETC\Resource Files</Filter>
+    </None>
+    <None Include="res\TradingSystemDoc.ico">
+      <Filter>ETC\Resource Files</Filter>
+    </None>
+    <None Include="res\TradingSystem.ico">
+      <Filter>ETC\Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>ETC\Resource Files</Filter>
+    </None>
+    <None Include="LoginInfo.xml">
+      <Filter>ETC\XML</Filter>
+    </None>
+    <None Include="ModuleList.xml">
+      <Filter>ETC\XML</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>ETC</Filter>
+    </None>
+    <None Include="ETradeDataFeedingInfoManager.def" />
+    <None Include="InstrumentInfo.xml">
+      <Filter>ETC\XML</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModuleRelationView.h">
+      <Filter>2. View %28MFC%29\Main View Part Dialogs\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputView.h">
+      <Filter>2. View %28MFC%29\Main View Part Dialogs\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TradingSystemView.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TradingSystem.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TradingSystemDoc.h">
+      <Filter>2. View %28MFC%29\00. Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgETradeLoginStatus.h">
+      <Filter>2. View %28MFC%29\02. Login Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLoginStatusTabBar.h">
+      <Filter>2. View %28MFC%29\02. Login Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWooriLoginStatus.h">
+      <Filter>2. View %28MFC%29\02. Login Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>ETC\XML\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeederList.h">
+      <Filter>1. Model %28Native C++%29\01. ModuleList\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleList.h">
+      <Filter>1. Model %28Native C++%29\01. ModuleList\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeLoginInfo.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeUserInfo.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeLoginInfoXMLController.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeLoginInfoXMLReader.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeLoginInfoXMLWriter.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeServerInfo.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IXingAPI.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="ETradeLoginInfoManager.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgModuleTree.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentCodeMaker.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\General\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingInfoManager.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginInfoManager.h">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingInfoXMLController.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\BM_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\BMT.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\C01.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\FC0.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\FH0.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\H01.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\H1_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\H2_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\h2_4ELW.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\h3_4ELW.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\HA_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\HB_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\IJ_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\JIF.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\K3_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\KM_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\KS_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\NWS.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\O01.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\OC0.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\OH0.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\PM_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\S2_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\s2_4ELW.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\S3_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\s3_4ELW.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\S4_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\s4_4ELW.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC0.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC1.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC2.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC3.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC4.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t0424.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t0425.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t0431.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t0433.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t0434.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1101.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1102.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1104.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1105.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1301.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1302.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1305.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1308.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1404.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1405.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1444.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1449.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1452.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1485.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1486.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1488.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1511.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1516.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1532.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1537.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1601.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1602.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1603.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1615.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1617.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1621.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1631.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1632.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1633.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1640.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1662.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1664.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1701.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1809.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1901.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1902.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1903.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1904.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1961.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1966.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2101.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2105.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2106.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2201.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2203.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2209.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2210.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2301.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2405.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2421.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3102.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3202.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3341.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3401.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t4201.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t4203.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5009.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5010.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5011.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5012.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5024.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5026.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5101.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5501.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5502.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5503.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5511.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5512.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t5513.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t6005.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t6011.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t6024.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t6034.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9905.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9907.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\TH_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\TS_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YJ_.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YK3.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YS3.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingItemInfo.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingItemInfoList.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\CellRange.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCell.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCellBase.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCtrl.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridDropTarget.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\InPlaceEdit.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\MemDC.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TitleTip.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCheck.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCombo.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellDateTime.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellNumeric.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridURLCell.h">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingEditCtrl.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingGridCtrl.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDataFeedingModule.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDataFeedingInfoAdd.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFeedingInfoItemListInGrid.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TradingSystemManager.h">
+      <Filter>1. Model %28Native C++%29</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBunchGridCtrl.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBunchItemGridCtrl.h">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBlock.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser\rapidxml.hpp">
+      <Filter>ETC\XML\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser\rapidxml_iterators.hpp">
+      <Filter>ETC\XML\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser\rapidxml_print.hpp">
+      <Filter>ETC\XML\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser\rapidxml_utils.hpp">
+      <Filter>ETC\XML\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBunch.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBunchList.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>1. Model %28Native C++%29\03. FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBunchItem.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBunchesToNotify.h">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Contract.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitOrderBook.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ask.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Instrument.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentList.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AskList.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentManager.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentInfoXMLController.h">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentGridCtrl.h">
+      <Filter>2. View %28MFC%29\03. Instrument Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgInstrumentManager.h">
+      <Filter>2. View %28MFC%29\03. Instrument Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginTime.h">
+      <Filter>1. Model %28Native C++%29\00. Login\General</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOptionManager.h">
+      <Filter>2. View %28MFC%29\04. Option Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartViewer.h">
+      <Filter>ETC\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackSholesOptionPricingModel.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanOption.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LongPosition.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFormula.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionParameter.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionList.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortPosition.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionManager.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOptionStrategy.h">
+      <Filter>2. View %28MFC%29\04. Option Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionPositionGridGtrl.h">
+      <Filter>2. View %28MFC%29\04. Option Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DateInfo.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataConverter.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypeDefinition.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="tchar.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="tstringstream.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MathCalculator.h">
+      <Filter>ETC\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\Array.hpp">
+      <Filter>ETC\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\BinaryTree.hpp">
+      <Filter>ETC\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\LinkedList.hpp">
+      <Filter>ETC\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Template\Registration.hpp">
+      <Filter>ETC\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionListGridCtrl.h">
+      <Filter>2. View %28MFC%29\04. Option Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpiryCalculator.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionStrategyList.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3521.h">
+      <Filter>ETC\ETradePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensitivity.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionValue.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionPriceBoardItem.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionPriceBoard.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionInfo.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionInfoList.h">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionStrategyGridCtrl.h">
+      <Filter>2. View %28MFC%29\04. Option Manager\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModuleRelationView.cpp">
+      <Filter>2. View %28MFC%29\Main View Part Dialogs\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputView.cpp">
+      <Filter>2. View %28MFC%29\Main View Part Dialogs\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>2. View %28MFC%29\00. Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TradingSystemView.cpp">
+      <Filter>2. View %28MFC%29\00. Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>2. View %28MFC%29\00. Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TradingSystem.cpp">
+      <Filter>2. View %28MFC%29\00. Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TradingSystemDoc.cpp">
+      <Filter>2. View %28MFC%29\00. Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgETradeLoginStatus.cpp">
+      <Filter>2. View %28MFC%29\02. Login Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWooriLoginStatus.cpp">
+      <Filter>2. View %28MFC%29\02. Login Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLoginStatusTabBar.cpp">
+      <Filter>2. View %28MFC%29\02. Login Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>ETC\XML\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeederList.cpp">
+      <Filter>1. Model %28Native C++%29\01. ModuleList\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleList.cpp">
+      <Filter>1. Model %28Native C++%29\01. ModuleList\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeLoginInfo.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeUserInfo.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeLoginInfoXMLController.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeLoginInfoXMLReader.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeLoginInfoXMLWriter.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeServerInfo.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ETradeLoginInfoManager.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgModuleTree.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentCodeMaker.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\General\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingInfoManager.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginInfoManager.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\ETrade\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingInfoXMLController.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingItemInfo.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCell.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCellBase.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCtrl.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridDropTarget.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TitleTip.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCheck.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCombo.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellDateTime.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellNumeric.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridURLCell.cpp">
+      <Filter>ETC\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingEditCtrl.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDataFeedingModule.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDataFeedingInfoItemAdd.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingInfoItemListInGrid.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TradingSystemManager.cpp">
+      <Filter>1. Model %28Native C++%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBunchGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBunchItemGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\01. ModuleList Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBlock.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBunch.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBunchList.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeedingItemInfoList.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>1. Model %28Native C++%29\03. FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBunchItem.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBunchesToNotify.cpp">
+      <Filter>1. Model %28Native C++%29\02. DataFeeding\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ask.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Contract.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AskList.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitOrderBook.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Instrument.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentList.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentInfoXMLController.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\03. Instrument Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgInstrumentManager.cpp">
+      <Filter>2. View %28MFC%29\03. Instrument Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginTime.cpp">
+      <Filter>1. Model %28Native C++%29\00. Login\General</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentManager.cpp">
+      <Filter>1. Model %28Native C++%29\04. InstrumentManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartViewer.cpp">
+      <Filter>ETC\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptionManager.cpp">
+      <Filter>2. View %28MFC%29\04. Option Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackSholesOptionPricingModel.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanOption.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LongPosition.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFormula.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionParameter.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionList.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortPosition.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionStrategyList.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionManager.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptionStrategy.cpp">
+      <Filter>2. View %28MFC%29\04. Option Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionPositionGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\04. Option Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DateInfo.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataConverter.cpp">
+      <Filter>ETC\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MathCalculator.cpp">
+      <Filter>ETC\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionListGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\04. Option Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpiryCalculator.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensitivity.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionValue.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionPriceBoardItem.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionPriceBoard.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionInfo.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionInfoList.cpp">
+      <Filter>1. Model %28Native C++%29\05. OptionManager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionStrategyGridCtrl.cpp">
+      <Filter>2. View %28MFC%29\04. Option Manager\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TradingSystem.rc">
+      <Filter>ETC\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="ModuleTree.xml">
+      <Filter>ETC\XML</Filter>
+    </Xml>
+    <Xml Include="DataFeedingInfo.xml">
+      <Filter>ETC\XML</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon1.ico">
+      <Filter>ETC\Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>ETC\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

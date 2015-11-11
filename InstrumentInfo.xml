@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<InstrumentInfo>
+
+    <Instrument type="Stock" name="삼성전자" code="005930" contract="1" limitOrderBook="2" />
+
+    <Instrument type="ETF" name="KODEX200" code="069500" contract="3" limitOrderBook="4" />
+    <Instrument type="ETF" name="KODEX200Leverage" code="122630"  contract="5" limitOrderBook="6" />
+    <Instrument type="ETF" name="KODEX200Inverse" code="114800" contract="7" limitOrderBook="8" />
+
+    <Instrument type="Futures" name="연결선물지수" code="00000000" contract="9" limitOrderBook="10" />
+    <Instrument type="Futures" name="KOSPI200Index" code="" contract="11" limitOrderBook="12" />
+
+
+</InstrumentInfo>

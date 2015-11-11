@@ -1,0 +1,673 @@
+﻿Build started 2014-11-25 오후 6:15:40.
+     1>Project "D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\TradingSystem\TradingSystem.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\QuantLib-1.4\QuantLib-1.4" /IC:\boost\boost_1_55_0 /I"D:\VS 2012 Projects\shp-system (36)\TradingSystem\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D MARKUP_STL /D "-D_SCL_SECURE_NO_WARNINGS" /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TradingSystem.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\QuantLib-1.4\QuantLib-1.4" /IC:\boost\boost_1_55_0 /I"D:\VS 2012 Projects\shp-system (36)\TradingSystem\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D MARKUP_STL /D "-D_SCL_SECURE_NO_WARNINGS" /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ChartViewer.cpp DataBunchGridCtrl.cpp DataFeedingInfoManager.cpp DataFeedingInfoXMLController.cpp DlgDataFeedingModule.cpp DlgETradeLoginStatus.cpp DlgInstrumentManager.cpp DlgLoginStatusTabBar.cpp DlgModuleTree.cpp DlgOptionManager.cpp DlgOptionStrategy.cpp DlgWooriLoginStatus.cpp GridCtrl_src\GridCell.cpp GridCtrl_src\GridCellBase.cpp GridCtrl_src\GridCtrl.cpp GridCtrl_src\GridDropTarget.cpp GridCtrl_src\InPlaceEdit.cpp GridCtrl_src\TitleTip.cpp InstrumentInfoXMLController.cpp LongPosition.cpp MainFrm.cpp ModuleList.cpp ModuleRelationView.cpp NewCellTypes\GridCellCheck.cpp NewCellTypes\GridCellCombo.cpp NewCellTypes\GridCellDateTime.cpp NewCellTypes\GridCellNumeric.cpp NewCellTypes\GridURLCell.cpp OptionManager.cpp OptionPositionGridCtrl.cpp OptionStrategyGridCtrl.cpp OptionStrategyList.cpp OutputView.cpp PositionList.cpp ShortPosition.cpp TradingSystem.cpp TradingSystemDoc.cpp TradingSystemManager.cpp TradingSystemView.cpp
+         TradingSystemView.cpp
+         TradingSystemManager.cpp
+         TradingSystemDoc.cpp
+         TradingSystem.cpp
+         ShortPosition.cpp
+         PositionList.cpp
+         OutputView.cpp
+         OptionStrategyList.cpp
+         OptionStrategyGridCtrl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currency.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\settings.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\cashflows\floatingratecoupon.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currencies\europe.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\endcriteria.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\boost\boost_1_55_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\integral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\sobolrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticsimplechooserengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\simplechooseroption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticwriterextensibleoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\writerextensibleoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\continuousarithmeticasianlevyengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\kirkspreadoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\spreadoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\cubicinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\problem.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\method.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\costfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\instruments\capfloor.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\sabrinterpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\sabrinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\projectedcostfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\haltonrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\turkey.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\swaption\swaptionvolmatrix.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\flatsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\primenumbers.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\kronrodintegral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\pseudosqrt.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\tapcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\armijo.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\linesearch.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\bfgs.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\conjugategradient.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\leastsquare.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\steepestdescent.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\primitivepolynomials.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\methods\finitedifferences\schemes\modifiedcraigsneydscheme.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\equity\piecewisetimedependenthestonmodel.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\historicalforwardratesanalysis.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\marketmodeldifferences.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\correlations\expcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\driftcomputation\cmsmmdriftcalculator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\vanilla\analyticptdhestonengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\derivedquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\eurodollarfuturesquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\forwardvaluequote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\impliedstddevquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\interpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\optionlet\optionletstripper1.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\argentina.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(229) : see reference to function template instantiation '_OutIt std::copy<QuantLib::Array::const_iterator,QuantLib::Array::iterator>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=QuantLib::Array::iterator,
+                     _InIt=QuantLib::Array::const_iterator
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(3017): warning C4996: 'std::_Equal1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(3002) : see declaration of 'std::_Equal1'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(290) : see reference to function template instantiation 'bool std::equal<QuantLib::Array::const_iterator,QuantLib::Array::const_iterator>(_InIt1,_InIt1,_InIt2)' being compiled
+                 with
+                 [
+                     _InIt1=QuantLib::Array::const_iterator,
+                     _InIt2=QuantLib::Array::const_iterator
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1207): warning C4996: 'std::_Transform2': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(307) : see reference to function template instantiation '_OutIt std::transform<QuantLib::Array::iterator,QuantLib::Array::const_iterator,QuantLib::Array::iterator,std::plus<_Ty>>(_InIt1,_InIt1,_InIt2,_OutIt,_Fn2)' being compiled
+                 with
+                 [
+                     _OutIt=QuantLib::Array::iterator,
+                     _Ty=QuantLib::Real,
+                     _InIt1=QuantLib::Array::iterator,
+                     _InIt2=QuantLib::Array::const_iterator,
+                     _Fn2=std::plus<QuantLib::Real>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1066): warning C4996: 'std::_Transform1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(314) : see reference to function template instantiation '_OutIt std::transform<QuantLib::Array::iterator,QuantLib::Array::iterator,std::binder2nd<_Fn2>>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+                 with
+                 [
+                     _OutIt=QuantLib::Array::iterator,
+                     _Fn2=std::plus<QuantLib::Real>,
+                     _InIt=QuantLib::Array::iterator,
+                     _Fn1=std::binder2nd<std::plus<QuantLib::Real>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\numeric(108): warning C4996: 'std::_Inner_product1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\numeric(92) : see declaration of 'std::_Inner_product1'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(475) : see reference to function template instantiation '_Ty std::inner_product<QuantLib::Array::const_iterator,QuantLib::Array::const_iterator,double>(_InIt1,_InIt1,_InIt2,_Ty)' being compiled
+                 with
+                 [
+                     _Ty=double,
+                     _InIt1=QuantLib::Array::const_iterator,
+                     _InIt2=QuantLib::Array::const_iterator
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\numeric(92) : see declaration of 'std::_Inner_product1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory(333) : see declaration of 'std::_Uninitialized_copy0'
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\storage.hpp(94) : see reference to function template instantiation '_FwdIt std::uninitialized_copy<const unsigned int*,unsigned int*>(_InIt,_InIt,_FwdIt)' being compiled
+                 with
+                 [
+                     _FwdIt=unsigned int *,
+                     _InIt=const unsigned int *
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\storage.hpp(89) : while compiling class template member function 'boost::numeric::ublas::unbounded_array<T>::unbounded_array(const boost::numeric::ublas::unbounded_array<T> &)'
+                 with
+                 [
+                     T=size_t
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2682) : see reference to function template instantiation 'boost::numeric::ublas::unbounded_array<T>::unbounded_array(const boost::numeric::ublas::unbounded_array<T> &)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2637) : see reference to class template instantiation 'boost::numeric::ublas::unbounded_array<T>' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\sparsematrix.hpp(62) : see reference to class template instantiation 'boost::numeric::ublas::compressed_matrix<T>' being compiled
+                 with
+                 [
+                     T=QuantLib::Real
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory(333) : see declaration of 'std::_Uninitialized_copy0'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2455): warning C4996: 'std::_Copy_backward': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2440) : see declaration of 'std::_Copy_backward'
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2906) : see reference to function template instantiation '_BidIt2 std::copy_backward<unsigned int*,unsigned int*>(_BidIt1,_BidIt1,_BidIt2)' being compiled
+                 with
+                 [
+                     _BidIt2=unsigned int *,
+                     _BidIt1=unsigned int *
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2887) : while compiling class template member function 'double &boost::numeric::ublas::compressed_matrix<T>::insert_element(unsigned int,unsigned int,const double &)'
+                 with
+                 [
+                     T=QuantLib::Real
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\detail\matrix_assign.hpp(922) : see reference to function template instantiation 'double &boost::numeric::ublas::compressed_matrix<T>::insert_element(unsigned int,unsigned int,const double &)' being compiled
+                 with
+                 [
+                     T=QuantLib::Real
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2440) : see declaration of 'std::_Copy_backward'
+         OptionPositionGridCtrl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currency.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\settings.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\cashflows\floatingratecoupon.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currencies\europe.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\endcriteria.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\boost\boost_1_55_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\integral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\sobolrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticsimplechooserengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\simplechooseroption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticwriterextensibleoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\writerextensibleoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\continuousarithmeticasianlevyengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\kirkspreadoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\spreadoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\cubicinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\problem.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\method.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\costfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\instruments\capfloor.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\sabrinterpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\sabrinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\projectedcostfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\haltonrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\turkey.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\swaption\swaptionvolmatrix.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\flatsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\primenumbers.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\kronrodintegral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\pseudosqrt.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\tapcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\armijo.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\linesearch.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\bfgs.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\conjugategradient.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\leastsquare.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\steepestdescent.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\primitivepolynomials.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\methods\finitedifferences\schemes\modifiedcraigsneydscheme.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\equity\piecewisetimedependenthestonmodel.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\historicalforwardratesanalysis.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\marketmodeldifferences.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\correlations\expcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\driftcomputation\cmsmmdriftcalculator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\vanilla\analyticptdhestonengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\derivedquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\eurodollarfuturesquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\forwardvaluequote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\impliedstddevquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\interpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\optionlet\optionletstripper1.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\argentina.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(229) : see reference to function template instantiation '_OutIt std::copy<QuantLib::Array::const_iterator,QuantLib::Array::iterator>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=QuantLib::Array::iterator,
+                     _InIt=QuantLib::Array::const_iterator
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(3017): warning C4996: 'std::_Equal1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(3002) : see declaration of 'std::_Equal1'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(290) : see reference to function template instantiation 'bool std::equal<QuantLib::Array::const_iterator,QuantLib::Array::const_iterator>(_InIt1,_InIt1,_InIt2)' being compiled
+                 with
+                 [
+                     _InIt1=QuantLib::Array::const_iterator,
+                     _InIt2=QuantLib::Array::const_iterator
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1207): warning C4996: 'std::_Transform2': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(307) : see reference to function template instantiation '_OutIt std::transform<QuantLib::Array::iterator,QuantLib::Array::const_iterator,QuantLib::Array::iterator,std::plus<_Ty>>(_InIt1,_InIt1,_InIt2,_OutIt,_Fn2)' being compiled
+                 with
+                 [
+                     _OutIt=QuantLib::Array::iterator,
+                     _Ty=QuantLib::Real,
+                     _InIt1=QuantLib::Array::iterator,
+                     _InIt2=QuantLib::Array::const_iterator,
+                     _Fn2=std::plus<QuantLib::Real>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1066): warning C4996: 'std::_Transform1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(314) : see reference to function template instantiation '_OutIt std::transform<QuantLib::Array::iterator,QuantLib::Array::iterator,std::binder2nd<_Fn2>>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+                 with
+                 [
+                     _OutIt=QuantLib::Array::iterator,
+                     _Fn2=std::plus<QuantLib::Real>,
+                     _InIt=QuantLib::Array::iterator,
+                     _Fn1=std::binder2nd<std::plus<QuantLib::Real>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\numeric(108): warning C4996: 'std::_Inner_product1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\numeric(92) : see declaration of 'std::_Inner_product1'
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\array.hpp(475) : see reference to function template instantiation '_Ty std::inner_product<QuantLib::Array::const_iterator,QuantLib::Array::const_iterator,double>(_InIt1,_InIt1,_InIt2,_Ty)' being compiled
+                 with
+                 [
+                     _Ty=double,
+                     _InIt1=QuantLib::Array::const_iterator,
+                     _InIt2=QuantLib::Array::const_iterator
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1185) : see declaration of 'std::_Transform2'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\numeric(92) : see declaration of 'std::_Inner_product1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory(333) : see declaration of 'std::_Uninitialized_copy0'
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\storage.hpp(94) : see reference to function template instantiation '_FwdIt std::uninitialized_copy<const unsigned int*,unsigned int*>(_InIt,_InIt,_FwdIt)' being compiled
+                 with
+                 [
+                     _FwdIt=unsigned int *,
+                     _InIt=const unsigned int *
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\storage.hpp(89) : while compiling class template member function 'boost::numeric::ublas::unbounded_array<T>::unbounded_array(const boost::numeric::ublas::unbounded_array<T> &)'
+                 with
+                 [
+                     T=size_t
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2682) : see reference to function template instantiation 'boost::numeric::ublas::unbounded_array<T>::unbounded_array(const boost::numeric::ublas::unbounded_array<T> &)' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2637) : see reference to class template instantiation 'boost::numeric::ublas::unbounded_array<T>' being compiled
+                 with
+                 [
+                     T=size_t
+                 ]
+                 c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\sparsematrix.hpp(62) : see reference to class template instantiation 'boost::numeric::ublas::compressed_matrix<T>' being compiled
+                 with
+                 [
+                     T=QuantLib::Real
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xmemory(333) : see declaration of 'std::_Uninitialized_copy0'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2455): warning C4996: 'std::_Copy_backward': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2440) : see declaration of 'std::_Copy_backward'
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2906) : see reference to function template instantiation '_BidIt2 std::copy_backward<unsigned int*,unsigned int*>(_BidIt1,_BidIt1,_BidIt2)' being compiled
+                 with
+                 [
+                     _BidIt2=unsigned int *,
+                     _BidIt1=unsigned int *
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\matrix_sparse.hpp(2887) : while compiling class template member function 'double &boost::numeric::ublas::compressed_matrix<T>::insert_element(unsigned int,unsigned int,const double &)'
+                 with
+                 [
+                     T=QuantLib::Real
+                 ]
+                 c:\boost\boost_1_55_0\boost\numeric\ublas\detail\matrix_assign.hpp(922) : see reference to function template instantiation 'double &boost::numeric::ublas::compressed_matrix<T>::insert_element(unsigned int,unsigned int,const double &)' being compiled
+                 with
+                 [
+                     T=QuantLib::Real
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2440) : see declaration of 'std::_Copy_backward'
+         OptionManager.cpp
+         GridURLCell.cpp
+         GridCellNumeric.cpp
+         GridCellDateTime.cpp
+         GridCellCombo.cpp
+         GridCellCheck.cpp
+         ModuleRelationView.cpp
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currency.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\settings.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\cashflows\floatingratecoupon.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currencies\europe.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\endcriteria.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\boost\boost_1_55_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\integral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\sobolrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticsimplechooserengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\simplechooseroption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticwriterextensibleoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\writerextensibleoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\continuousarithmeticasianlevyengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\kirkspreadoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\spreadoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\cubicinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\problem.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\method.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\costfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\instruments\capfloor.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\sabrinterpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\sabrinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\projectedcostfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\haltonrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\turkey.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\swaption\swaptionvolmatrix.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\flatsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\primenumbers.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\kronrodintegral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\pseudosqrt.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\tapcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\armijo.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\linesearch.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\bfgs.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\conjugategradient.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\leastsquare.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\steepestdescent.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\primitivepolynomials.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\methods\finitedifferences\schemes\modifiedcraigsneydscheme.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\equity\piecewisetimedependenthestonmodel.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\historicalforwardratesanalysis.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\marketmodeldifferences.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\correlations\expcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\driftcomputation\cmsmmdriftcalculator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\vanilla\analyticptdhestonengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\derivedquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\eurodollarfuturesquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\forwardvaluequote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\impliedstddevquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\interpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\optionlet\optionletstripper1.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\argentina.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+         ModuleList.cpp
+         MainFrm.cpp
+         LongPosition.cpp
+         Generating Code...
+         Compiling...
+         InstrumentInfoXMLController.cpp
+         TitleTip.cpp
+         InPlaceEdit.cpp
+         GridDropTarget.cpp
+         GridCtrl.cpp
+         GridCellBase.cpp
+         GridCell.cpp
+         DlgWooriLoginStatus.cpp
+         DlgOptionStrategy.cpp
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currency.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\settings.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\cashflows\floatingratecoupon.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currencies\europe.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\endcriteria.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\boost\boost_1_55_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\integral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\sobolrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticsimplechooserengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\simplechooseroption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticwriterextensibleoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\writerextensibleoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\continuousarithmeticasianlevyengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\kirkspreadoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\spreadoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\cubicinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\problem.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\method.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\costfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\instruments\capfloor.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\sabrinterpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\sabrinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\projectedcostfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\haltonrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\turkey.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\swaption\swaptionvolmatrix.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\flatsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\primenumbers.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\kronrodintegral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\pseudosqrt.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\tapcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\armijo.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\linesearch.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\bfgs.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\conjugategradient.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\leastsquare.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\steepestdescent.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\primitivepolynomials.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\methods\finitedifferences\schemes\modifiedcraigsneydscheme.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\equity\piecewisetimedependenthestonmodel.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\historicalforwardratesanalysis.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\marketmodeldifferences.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\correlations\expcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\driftcomputation\cmsmmdriftcalculator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\vanilla\analyticptdhestonengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\derivedquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\eurodollarfuturesquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\forwardvaluequote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\impliedstddevquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\interpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\optionlet\optionletstripper1.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\argentina.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+         DlgOptionManager.cpp
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currency.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\settings.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\cashflows\floatingratecoupon.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\currencies\europe.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\endcriteria.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\boost\boost_1_55_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\integral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\sobolrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticsimplechooserengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\simplechooseroption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\analyticwriterextensibleoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\writerextensibleoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\continuousarithmeticasianlevyengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\kirkspreadoptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\exoticoptions\spreadoption.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\cubicinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\problem.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\method.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\costfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\instruments\capfloor.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\sabrinterpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\interpolations\sabrinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\projectedcostfunction.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\haltonrsg.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\turkey.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\swaption\swaptionvolmatrix.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\flatsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\primenumbers.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\integrals\kronrodintegral.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\pseudosqrt.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\matrixutilities\tapcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\armijo.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\linesearch.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\bfgs.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\conjugategradient.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\leastsquare.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\optimization\steepestdescent.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\math\randomnumbers\primitivepolynomials.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\methods\finitedifferences\schemes\modifiedcraigsneydscheme.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\equity\piecewisetimedependenthestonmodel.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\historicalforwardratesanalysis.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\marketmodeldifferences.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\correlations\expcorrelations.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\models\marketmodels\driftcomputation\cmsmmdriftcalculator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\pricingengines\vanilla\analyticptdhestonengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\derivedquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\eurodollarfuturesquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\forwardvaluequote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\quotes\impliedstddevquote.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\interpolatedsmilesection.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\termstructures\volatility\optionlet\optionletstripper1.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\quantlib-1.4\quantlib-1.4\ql\time\calendars\argentina.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgoptionmanager.cpp(292): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         DlgModuleTree.cpp
+         DlgLoginStatusTabBar.cpp
+         DlgInstrumentManager.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         DlgETradeLoginStatus.cpp
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgetradeloginstatus.cpp(150): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgetradeloginstatus.cpp(170): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         DlgDataFeedingModule.cpp
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgdatafeedingmodule.cpp(228): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgdatafeedingmodule.cpp(422): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgdatafeedingmodule.cpp(466): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         DataFeedingInfoXMLController.cpp
+         DataFeedingInfoManager.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         DataBunchGridCtrl.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         ChartViewer.cpp
+         Generating Code...
+     1>d:\vs 2012 projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\tradingsystem\dlgetradeloginstatus.cpp(227): warning C4700: uninitialized local variable 'checker' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Debug\TradingSystem.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\QuantLib-1.4\QuantLib-1.4\lib" /LIBPATH:C:\boost\boost_1_55_0\stage\lib lib\chartdir51.lib /DEF:"ETradeDataFeedingInfoManager.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Debug\TradingSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Debug\TradingSystem.lib" /MACHINE:X86 Debug\TradingSystem.res
+         Debug\Ask.obj
+         Debug\AskList.obj
+         Debug\BlackSholesOptionPricingModel.obj
+         Debug\ChartViewer.obj
+         Debug\Contract.obj
+         Debug\DataBlock.obj
+         Debug\DataBunchesToNotify.obj
+         Debug\DataBunchGridCtrl.obj
+         Debug\DataBunchItem.obj
+         Debug\DataBunchItemGridCtrl.obj
+         Debug\DataFeedingEditCtrl.obj
+         Debug\DataFeedingGridCtrl.obj
+         Debug\DataFeederList.obj
+         Debug\DataFeedingInfoItemListInGrid.obj
+         Debug\DataBunch.obj
+         Debug\DataFeedingInfoManager.obj
+         Debug\DataFeedingItemInfo.obj
+         Debug\DataFeedingItemInfoList.obj
+         Debug\DataBunchList.obj
+         Debug\DateInfo.obj
+         Debug\DlgDataFeedingInfoItemAdd.obj
+         Debug\DlgETradeLoginStatus.obj
+         Debug\DlgInstrumentManager.obj
+         Debug\DlgLoginStatusTabBar.obj
+         Debug\DlgModuleTree.obj
+         Debug\DlgDataFeedingModule.obj
+         Debug\DlgOptionManager.obj
+         Debug\DlgOptionStrategy.obj
+         Debug\DlgWooriLoginStatus.obj
+         Debug\DataFeedingInfoXMLController.obj
+         Debug\ETradeLoginInfo.obj
+         Debug\ETradeLoginInfoManager.obj
+         Debug\ETradeLoginInfoXMLController.obj
+         Debug\ETradeLoginInfoXMLReader.obj
+         Debug\ETradeLoginInfoXMLWriter.obj
+         Debug\ETradeServerInfo.obj
+         Debug\ETradeUserInfo.obj
+         Debug\EuropeanOption.obj
+         Debug\ExpiryCalculator.obj
+         Debug\FileWriter.obj
+         Debug\GridCell.obj
+         Debug\GridCellBase.obj
+         Debug\GridCtrl.obj
+         Debug\GridDropTarget.obj
+         Debug\InPlaceEdit.obj
+         Debug\TitleTip.obj
+         Debug\Instrument.obj
+         Debug\InstrumentCodeMaker.obj
+         Debug\InstrumentGridCtrl.obj
+         Debug\InstrumentInfoXMLController.obj
+         Debug\InstrumentList.obj
+         Debug\InstrumentManager.obj
+         Debug\LimitOrderBook.obj
+         Debug\LoginInfoManager.obj
+         Debug\LoginTime.obj
+         Debug\LongPosition.obj
+         Debug\MainFrm.obj
+         Debug\Markup.obj
+         Debug\MathCalculator.obj
+         Debug\MathFormula.obj
+         Debug\ModuleList.obj
+         Debug\ModuleRelationView.obj
+         Debug\GridCellCheck.obj
+         Debug\GridCellCombo.obj
+         Debug\GridCellDateTime.obj
+         Debug\GridCellNumeric.obj
+         Debug\GridURLCell.obj
+         Debug\OptionInfo.obj
+         Debug\OptionInfoList.obj
+         Debug\OptionPriceBoardItem.obj
+         Debug\OptionListGridCtrl.obj
+         Debug\OptionManager.obj
+         Debug\OptionParameter.obj
+         Debug\OptionPositionGridCtrl.obj
+         Debug\OptionStrategyGridCtrl.obj
+         Debug\OptionStrategyList.obj
+         Debug\OptionPriceBoard.obj
+         Debug\OptionValue.obj
+         Debug\OutputView.obj
+         Debug\PositionList.obj
+         Debug\Sensitivity.obj
+         Debug\ShortPosition.obj
+         Debug\stdafx.obj
+         Debug\TradingSystem.obj
+         Debug\TradingSystemDoc.obj
+         Debug\TradingSystemManager.obj
+         Debug\TradingSystemView.obj
+         Debug\DataConverter.obj
+            Creating library D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Debug\TradingSystem.lib and object D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Debug\TradingSystem.exp
+         TradingSystem.vcxproj -> D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\Debug\TradingSystem.exe
+     1>Done Building Project "D:\VS 2012 Projects\shp-system (38) 옵션 매니저 추가  (옵셔 전광판, 잔존기간 365)\TradingSystem\TradingSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:09:15.04

@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="11.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB94D554-491A-4551-AE7E-97B8EDA1B8ED}</ProjectGuid>
+    <RootNamespace>TradingSystem</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\boost\boost_1_55_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\boost\boost_1_55_0\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\boost\boost_1_55_0\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MARKUP_STL;-D_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\QuantLib-1.4\QuantLib-1.4;C:\boost\boost_1_55_0;D:\VS 2012 Projects\shp-system %2836%29\TradingSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>ETradeDataFeedingInfoManager.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>C:\QuantLib-1.4\QuantLib-1.4\lib;C:\boost\boost_1_55_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lib\chartdir51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MARKUP_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>ETradeDataFeedingInfoManager.def</ModuleDefinitionFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);MARKUP_STL</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\QuantLib-1.4\QuantLib-1.4;D:\VS 2012 Projects\shp-system %2836%29\TradingSystem\include;C:\boost\boost_1_55_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>ETradeDataFeedingInfoManager.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>C:\QuantLib-1.4\QuantLib-1.4\lib;C:\boost\boost_1_55_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lib\chartdir51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);MARKUP_STL</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>ETradeDataFeedingInfoManager.def</ModuleDefinitionFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ETradeDataFeedingInfoManager.def" />
+    <None Include="InstrumentInfo.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginInfo.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ModuleList.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\TradingSystem.ico" />
+    <None Include="res\TradingSystem.rc2" />
+    <None Include="res\TradingSystemDoc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ask.h" />
+    <ClInclude Include="AskList.h" />
+    <ClInclude Include="BlackSholesOptionPricingModel.h" />
+    <ClInclude Include="ChartViewer.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Contract.h" />
+    <ClInclude Include="DataBlock.h" />
+    <ClInclude Include="DataBunchesToNotify.h" />
+    <ClInclude Include="DataBunchGridCtrl.h" />
+    <ClInclude Include="DataBunchItem.h" />
+    <ClInclude Include="DataBunchItemGridCtrl.h" />
+    <ClInclude Include="DataFeedingEditCtrl.h" />
+    <ClInclude Include="DataFeedingGridCtrl.h" />
+    <ClInclude Include="DataFeederList.h" />
+    <ClInclude Include="DataFeedingInfoItemListInGrid.h" />
+    <ClInclude Include="DataBunch.h" />
+    <ClInclude Include="DataFeedingInfoManager.h" />
+    <ClInclude Include="DataFeedingItemInfoList.h" />
+    <ClInclude Include="DataFeedingItemInfo.h" />
+    <ClInclude Include="DataBunchList.h" />
+    <ClInclude Include="DataTypeDefinition.h" />
+    <ClInclude Include="DateInfo.h" />
+    <ClInclude Include="DlgDataFeedingInfoAdd.h" />
+    <ClInclude Include="DlgInstrumentManager.h" />
+    <ClInclude Include="DlgModuleTree.h" />
+    <ClInclude Include="DataFeedingInfoXMLController.h" />
+    <ClInclude Include="DlgETradeLoginStatus.h" />
+    <ClInclude Include="DlgLoginStatusTabBar.h" />
+    <ClInclude Include="DlgDataFeedingModule.h" />
+    <ClInclude Include="DlgOptionManager.h" />
+    <ClInclude Include="DlgOptionStrategy.h" />
+    <ClInclude Include="DlgWooriLoginStatus.h" />
+    <ClInclude Include="ETradeLoginInfo.h" />
+    <ClInclude Include="ETradeLoginInfoManager.h" />
+    <ClInclude Include="ETradeLoginInfoXMLController.h" />
+    <ClInclude Include="ETradeLoginInfoXMLReader.h" />
+    <ClInclude Include="ETradeLoginInfoXMLWriter.h" />
+    <ClInclude Include="ETradeServerInfo.h" />
+    <ClInclude Include="ETradeUserInfo.h" />
+    <ClInclude Include="EuropeanOption.h" />
+    <ClInclude Include="ExpiryCalculator.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FileWriter.h" />
+    <ClInclude Include="GridCtrl_src\CellRange.h" />
+    <ClInclude Include="GridCtrl_src\GridCell.h" />
+    <ClInclude Include="GridCtrl_src\GridCellBase.h" />
+    <ClInclude Include="GridCtrl_src\GridCtrl.h" />
+    <ClInclude Include="GridCtrl_src\GridDropTarget.h" />
+    <ClInclude Include="GridCtrl_src\InPlaceEdit.h" />
+    <ClInclude Include="GridCtrl_src\MemDC.h" />
+    <ClInclude Include="GridCtrl_src\TitleTip.h" />
+    <ClInclude Include="Instrument.h" />
+    <ClInclude Include="InstrumentCodeMaker.h" />
+    <ClInclude Include="InstrumentGridCtrl.h" />
+    <ClInclude Include="InstrumentInfoXMLController.h" />
+    <ClInclude Include="InstrumentList.h" />
+    <ClInclude Include="InstrumentManager.h" />
+    <ClInclude Include="IXingAPI.h" />
+    <ClInclude Include="LimitOrderBook.h" />
+    <ClInclude Include="LoginInfoManager.h" />
+    <ClInclude Include="LoginTime.h" />
+    <ClInclude Include="LongPosition.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Markup.h" />
+    <ClInclude Include="MathCalculator.h" />
+    <ClInclude Include="MathFormula.h" />
+    <ClInclude Include="ModuleList.h" />
+    <ClInclude Include="ModuleRelationView.h" />
+    <ClInclude Include="NewCellTypes\GridCellCheck.h" />
+    <ClInclude Include="NewCellTypes\GridCellCombo.h" />
+    <ClInclude Include="NewCellTypes\GridCellDateTime.h" />
+    <ClInclude Include="NewCellTypes\GridCellNumeric.h" />
+    <ClInclude Include="NewCellTypes\GridURLCell.h" />
+    <ClInclude Include="OptionInfo.h" />
+    <ClInclude Include="OptionInfoList.h" />
+    <ClInclude Include="OptionPriceBoardItem.h" />
+    <ClInclude Include="OptionPriceBoard.h" />
+    <ClInclude Include="OptionListGridCtrl.h" />
+    <ClInclude Include="OptionManager.h" />
+    <ClInclude Include="OptionParameter.h" />
+    <ClInclude Include="OptionPositionGridGtrl.h" />
+    <ClInclude Include="OptionStrategyGridCtrl.h" />
+    <ClInclude Include="OptionStrategyList.h" />
+    <ClInclude Include="OptionValue.h" />
+    <ClInclude Include="OutputView.h" />
+    <ClInclude Include="packet\BMT.h" />
+    <ClInclude Include="packet\BM_.h" />
+    <ClInclude Include="packet\C01.h" />
+    <ClInclude Include="packet\FC0.h" />
+    <ClInclude Include="packet\FH0.h" />
+    <ClInclude Include="packet\H01.h" />
+    <ClInclude Include="packet\H1_.h" />
+    <ClInclude Include="packet\H2_.h" />
+    <ClInclude Include="packet\h2_4ELW.h" />
+    <ClInclude Include="packet\h3_4ELW.h" />
+    <ClInclude Include="packet\HA_.h" />
+    <ClInclude Include="packet\HB_.h" />
+    <ClInclude Include="packet\IJ_.h" />
+    <ClInclude Include="packet\JIF.h" />
+    <ClInclude Include="packet\K3_.h" />
+    <ClInclude Include="packet\KM_.h" />
+    <ClInclude Include="packet\KS_.h" />
+    <ClInclude Include="packet\NWS.h" />
+    <ClInclude Include="packet\O01.h" />
+    <ClInclude Include="packet\OC0.h" />
+    <ClInclude Include="packet\OH0.h" />
+    <ClInclude Include="packet\PM_.h" />
+    <ClInclude Include="packet\S2_.h" />
+    <ClInclude Include="packet\s2_4ELW.h" />
+    <ClInclude Include="packet\S3_.h" />
+    <ClInclude Include="packet\s3_4ELW.h" />
+    <ClInclude Include="packet\S4_.h" />
+    <ClInclude Include="packet\s4_4ELW.h" />
+    <ClInclude Include="packet\SC0.h" />
+    <ClInclude Include="packet\SC1.h" />
+    <ClInclude Include="packet\SC2.h" />
+    <ClInclude Include="packet\SC3.h" />
+    <ClInclude Include="packet\SC4.h" />
+    <ClInclude Include="packet\t0424.h" />
+    <ClInclude Include="packet\t0425.h" />
+    <ClInclude Include="packet\t0431.h" />
+    <ClInclude Include="packet\t0433.h" />
+    <ClInclude Include="packet\t0434.h" />
+    <ClInclude Include="packet\t1101.h" />
+    <ClInclude Include="packet\t1102.h" />
+    <ClInclude Include="packet\t1104.h" />
+    <ClInclude Include="packet\t1105.h" />
+    <ClInclude Include="packet\t1301.h" />
+    <ClInclude Include="packet\t1302.h" />
+    <ClInclude Include="packet\t1305.h" />
+    <ClInclude Include="packet\t1308.h" />
+    <ClInclude Include="packet\t1404.h" />
+    <ClInclude Include="packet\t1405.h" />
+    <ClInclude Include="packet\t1444.h" />
+    <ClInclude Include="packet\t1449.h" />
+    <ClInclude Include="packet\t1452.h" />
+    <ClInclude Include="packet\t1485.h" />
+    <ClInclude Include="packet\t1486.h" />
+    <ClInclude Include="packet\t1488.h" />
+    <ClInclude Include="packet\t1511.h" />
+    <ClInclude Include="packet\t1516.h" />
+    <ClInclude Include="packet\t1532.h" />
+    <ClInclude Include="packet\t1537.h" />
+    <ClInclude Include="packet\t1601.h" />
+    <ClInclude Include="packet\t1602.h" />
+    <ClInclude Include="packet\t1603.h" />
+    <ClInclude Include="packet\t1615.h" />
+    <ClInclude Include="packet\t1617.h" />
+    <ClInclude Include="packet\t1621.h" />
+    <ClInclude Include="packet\t1631.h" />
+    <ClInclude Include="packet\t1632.h" />
+    <ClInclude Include="packet\t1633.h" />
+    <ClInclude Include="packet\t1640.h" />
+    <ClInclude Include="packet\t1662.h" />
+    <ClInclude Include="packet\t1664.h" />
+    <ClInclude Include="packet\t1701.h" />
+    <ClInclude Include="packet\t1809.h" />
+    <ClInclude Include="packet\t1901.h" />
+    <ClInclude Include="packet\t1902.h" />
+    <ClInclude Include="packet\t1903.h" />
+    <ClInclude Include="packet\t1904.h" />
+    <ClInclude Include="packet\t1961.h" />
+    <ClInclude Include="packet\t1966.h" />
+    <ClInclude Include="packet\t2101.h" />
+    <ClInclude Include="packet\t2105.h" />
+    <ClInclude Include="packet\t2106.h" />
+    <ClInclude Include="packet\t2201.h" />
+    <ClInclude Include="packet\t2203.h" />
+    <ClInclude Include="packet\t2209.h" />
+    <ClInclude Include="packet\t2210.h" />
+    <ClInclude Include="packet\t2301.h" />
+    <ClInclude Include="packet\t2405.h" />
+    <ClInclude Include="packet\t2421.h" />
+    <ClInclude Include="packet\t3102.h" />
+    <ClInclude Include="packet\t3202.h" />
+    <ClInclude Include="packet\t3341.h" />
+    <ClInclude Include="packet\t3401.h" />
+    <ClInclude Include="packet\t3521.h" />
+    <ClInclude Include="packet\t4201.h" />
+    <ClInclude Include="packet\t4203.h" />
+    <ClInclude Include="packet\t5009.h" />
+    <ClInclude Include="packet\t5010.h" />
+    <ClInclude Include="packet\t5011.h" />
+    <ClInclude Include="packet\t5012.h" />
+    <ClInclude Include="packet\t5024.h" />
+    <ClInclude Include="packet\t5026.h" />
+    <ClInclude Include="packet\t5101.h" />
+    <ClInclude Include="packet\t5501.h" />
+    <ClInclude Include="packet\t5502.h" />
+    <ClInclude Include="packet\t5503.h" />
+    <ClInclude Include="packet\t5511.h" />
+    <ClInclude Include="packet\t5512.h" />
+    <ClInclude Include="packet\t5513.h" />
+    <ClInclude Include="packet\t6005.h" />
+    <ClInclude Include="packet\t6011.h" />
+    <ClInclude Include="packet\t6024.h" />
+    <ClInclude Include="packet\t6034.h" />
+    <ClInclude Include="packet\t9905.h" />
+    <ClInclude Include="packet\t9907.h" />
+    <ClInclude Include="packet\TH_.h" />
+    <ClInclude Include="packet\TS_.h" />
+    <ClInclude Include="packet\YJ_.h" />
+    <ClInclude Include="packet\YK3.h" />
+    <ClInclude Include="packet\YS3.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="PositionList.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sensitivity.h" />
+    <ClInclude Include="ShortPosition.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tchar.h" />
+    <ClInclude Include="Template\Array.hpp" />
+    <ClInclude Include="Template\BinaryTree.hpp" />
+    <ClInclude Include="Template\LinkedList.hpp" />
+    <ClInclude Include="Template\Registration.hpp" />
+    <ClInclude Include="TradingSystem.h" />
+    <ClInclude Include="TradingSystemDoc.h" />
+    <ClInclude Include="TradingSystemManager.h" />
+    <ClInclude Include="TradingSystemView.h" />
+    <ClInclude Include="DataConverter.h" />
+    <ClInclude Include="tstring.h" />
+    <ClInclude Include="tstringstream.h" />
+    <ClInclude Include="XMLParser\rapidxml.hpp" />
+    <ClInclude Include="XMLParser\rapidxml_iterators.hpp" />
+    <ClInclude Include="XMLParser\rapidxml_print.hpp" />
+    <ClInclude Include="XMLParser\rapidxml_utils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ask.cpp" />
+    <ClCompile Include="AskList.cpp" />
+    <ClCompile Include="BlackSholesOptionPricingModel.cpp" />
+    <ClCompile Include="ChartViewer.cpp" />
+    <ClCompile Include="Contract.cpp" />
+    <ClCompile Include="DataBlock.cpp" />
+    <ClCompile Include="DataBunchesToNotify.cpp" />
+    <ClCompile Include="DataBunchGridCtrl.cpp" />
+    <ClCompile Include="DataBunchItem.cpp" />
+    <ClCompile Include="DataBunchItemGridCtrl.cpp" />
+    <ClCompile Include="DataFeedingEditCtrl.cpp" />
+    <ClCompile Include="DataFeedingGridCtrl.cpp" />
+    <ClCompile Include="DataFeederList.cpp" />
+    <ClCompile Include="DataFeedingInfoItemListInGrid.cpp" />
+    <ClCompile Include="DataBunch.cpp" />
+    <ClCompile Include="DataFeedingInfoManager.cpp" />
+    <ClCompile Include="DataFeedingItemInfo.cpp" />
+    <ClCompile Include="DataFeedingItemInfoList.cpp" />
+    <ClCompile Include="DataBunchList.cpp" />
+    <ClCompile Include="DateInfo.cpp" />
+    <ClCompile Include="DlgDataFeedingInfoItemAdd.cpp" />
+    <ClCompile Include="DlgETradeLoginStatus.cpp" />
+    <ClCompile Include="DlgInstrumentManager.cpp" />
+    <ClCompile Include="DlgLoginStatusTabBar.cpp" />
+    <ClCompile Include="DlgModuleTree.cpp" />
+    <ClCompile Include="DlgDataFeedingModule.cpp" />
+    <ClCompile Include="DlgOptionManager.cpp" />
+    <ClCompile Include="DlgOptionStrategy.cpp" />
+    <ClCompile Include="DlgWooriLoginStatus.cpp" />
+    <ClCompile Include="DataFeedingInfoXMLController.cpp" />
+    <ClCompile Include="ETradeLoginInfo.cpp" />
+    <ClCompile Include="ETradeLoginInfoManager.cpp" />
+    <ClCompile Include="ETradeLoginInfoXMLController.cpp" />
+    <ClCompile Include="ETradeLoginInfoXMLReader.cpp" />
+    <ClCompile Include="ETradeLoginInfoXMLWriter.cpp" />
+    <ClCompile Include="ETradeServerInfo.cpp" />
+    <ClCompile Include="ETradeUserInfo.cpp" />
+    <ClCompile Include="EuropeanOption.cpp" />
+    <ClCompile Include="ExpiryCalculator.cpp" />
+    <ClCompile Include="FileWriter.cpp" />
+    <ClCompile Include="GridCtrl_src\GridCell.cpp" />
+    <ClCompile Include="GridCtrl_src\GridCellBase.cpp" />
+    <ClCompile Include="GridCtrl_src\GridCtrl.cpp" />
+    <ClCompile Include="GridCtrl_src\GridDropTarget.cpp" />
+    <ClCompile Include="GridCtrl_src\InPlaceEdit.cpp" />
+    <ClCompile Include="GridCtrl_src\TitleTip.cpp" />
+    <ClCompile Include="Instrument.cpp" />
+    <ClCompile Include="InstrumentCodeMaker.cpp" />
+    <ClCompile Include="InstrumentGridCtrl.cpp" />
+    <ClCompile Include="InstrumentInfoXMLController.cpp" />
+    <ClCompile Include="InstrumentList.cpp" />
+    <ClCompile Include="InstrumentManager.cpp" />
+    <ClCompile Include="LimitOrderBook.cpp" />
+    <ClCompile Include="LoginInfoManager.cpp" />
+    <ClCompile Include="LoginTime.cpp" />
+    <ClCompile Include="LongPosition.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="MathCalculator.cpp" />
+    <ClCompile Include="MathFormula.cpp" />
+    <ClCompile Include="ModuleList.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ModuleRelationView.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellCheck.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellCombo.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellDateTime.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellNumeric.cpp" />
+    <ClCompile Include="NewCellTypes\GridURLCell.cpp" />
+    <ClCompile Include="OptionInfo.cpp" />
+    <ClCompile Include="OptionInfoList.cpp" />
+    <ClCompile Include="OptionPriceBoardItem.cpp" />
+    <ClCompile Include="OptionListGridCtrl.cpp" />
+    <ClCompile Include="OptionManager.cpp" />
+    <ClCompile Include="OptionParameter.cpp" />
+    <ClCompile Include="OptionPositionGridCtrl.cpp" />
+    <ClCompile Include="OptionStrategyGridCtrl.cpp" />
+    <ClCompile Include="OptionStrategyList.cpp" />
+    <ClCompile Include="OptionPriceBoard.cpp" />
+    <ClCompile Include="OptionValue.cpp" />
+    <ClCompile Include="OutputView.cpp" />
+    <ClCompile Include="PositionList.cpp" />
+    <ClCompile Include="Sensitivity.cpp" />
+    <ClCompile Include="ShortPosition.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TradingSystem.cpp" />
+    <ClCompile Include="TradingSystemDoc.cpp" />
+    <ClCompile Include="TradingSystemManager.cpp" />
+    <ClCompile Include="TradingSystemView.cpp" />
+    <ClCompile Include="DataConverter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TradingSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="DataFeedingInfo.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="ModuleTree.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TradingSystem.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
